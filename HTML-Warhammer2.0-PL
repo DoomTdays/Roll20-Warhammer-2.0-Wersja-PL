@@ -2070,14 +2070,14 @@
     </h4>
     <div class="sheet-row sheet-mar-b-md">
       <div class="sheet-col-1-5 sheet-center sheet-pad-r-md">
-        <input class="sheet-center" type="text" name="attr_star_sign"/>
+        <input class="sheet-center" type="text" value="Nieznany" name="attr_star_sign"/>
         <div class="sheet-small-label">
           <span class="sheet-english">Star Sign</span>
           <span class="sheet-german">Znak Gwiezdny</span>
         </div>
       </div>
       <div class="sheet-col-1-6 sheet-center sheet-pad-r-md">
-        <input class="sheet-center" type="text" name="attr_doom"/>
+        <input class="sheet-center" type="text"  value="Przepowiednie losu są dla głupców..." name="attr_doom"/>
         <div class="sheet-small-label">
           <span class="sheet-english">Doom</span>
           <span class="sheet-german">Wróżba Losu</span>
@@ -2091,84 +2091,84 @@
     </h4>
     <div class="sheet-row sheet-mar-b-md">
       <div class="sheet-col-1-8 sheet-center sheet-pad-r-md">
-        <input class="sheet-center" type="text" name="attr_gender"/>
+        <input class="sheet-center" type="text" value="Nieznana" name="attr_gender"/>
         <div class="sheet-small-label">
           <span class="sheet-english">Gender</span>
           <span class="sheet-german">Płeć</span>
         </div>
       </div>
       <div class="sheet-col-1-8 sheet-center sheet-pad-r-md">
-        <input class="sheet-center" type="text" name="attr_size"/>
+        <input class="sheet-center" type="text" value="Nieznana" name="attr_size"/>
         <div class="sheet-small-label">
           <span class="sheet-english">Size</span>
           <span class="sheet-german">Sylwetka</span>
         </div>
       </div>
       <div class="sheet-col-1-8 sheet-center sheet-pad-r-md">
-        <input class="sheet-center" type="number" name="attr_age"/>
+        <input class="sheet-center" type="text" value="Nieznany" name="attr_age"/>
         <div class="sheet-small-label">
           <span class="sheet-english">Age</span>
           <span class="sheet-german">Wiek</span>
         </div>
       </div>
       <div class="sheet-col-1-8 sheet-center sheet-pad-r-md">
-        <input class="sheet-center" type="text" name="attr_height"/>
+        <input class="sheet-center" type="text" value="Nieznany" name="attr_height"/>
         <div class="sheet-small-label">
           <span class="sheet-english">Height</span>
           <span class="sheet-german">Wzrost</span>
         </div>
       </div>
       <div class="sheet-col-1-8 sheet-center sheet-pad-r-md">
-        <input class="sheet-center" type="text" name="attr_weight"/>
+        <input class="sheet-center" type="text" value="Nieznana" name="attr_weight"/>
         <div class="sheet-small-label">
           <span class="sheet-english">Weight</span>
           <span class="sheet-german">Waga</span>
         </div>
       </div>
       <div class="sheet-col-1-8 sheet-center sheet-pad-r-md">
-        <input class="sheet-center" type="text" name="attr_eyes"/>
+        <input class="sheet-center" type="text" value="Nieznany" name="attr_eyes"/>
         <div class="sheet-small-label">
           <span class="sheet-english">Eyes</span>
-          <span class="sheet-german">Oczy</span>
+          <span class="sheet-german">Kolor Oczu</span>
         </div>
       </div>
       <div class="sheet-col-1-8 sheet-center sheet-pad-r-md">
-        <input class="sheet-center" type="text" name="attr_skin"/>
+        <input class="sheet-center" type="text" value="Nieznana" name="attr_skin"/>
         <div class="sheet-small-label">
           <span class="sheet-english">Skin</span>
-          <span class="sheet-german">Skóra</span>
+          <span class="sheet-german">Karnacja</span>
         </div>
       </div>
       <div class="sheet-col-1-8 sheet-center sheet-pad-r-md">
-        <input class="sheet-center" type="text" name="attr_hair"/>
+        <input class="sheet-center" type="text" value="Nieznany" name="attr_hair"/>
         <div class="sheet-small-label">
           <span class="sheet-english">Hair</span>
-          <span class="sheet-german">Włosy</span>
+          <span class="sheet-german">Kolor Włosów</span>
         </div>
       </div>
     </div>
-        <h4 class="sheet-center">
+    <h4 class="sheet-center">
       <span class="sheet-english">Origin and Family</span>
       <span class="sheet-german">Pochodzenie i Rodzina</span>
-      <span class="sheet-pictos">U</span>
+      <span class="sheet-pictos">g</span>
     </h4>
     <div class="sheet-row sheet-mar-b-md">
       <div class="sheet-col-1-8 sheet-center sheet-pad-r-md">
-        <input class="sheet-center" type="text" name="attr_homeland"/>
+        <input class="sheet-center" type="text" value="Nieznany" name="attr_homeland"/>
         <div class="sheet-small-label">
           <span class="sheet-english">Homeland</span>
           <span class="sheet-german">Kraj Pochodzenia</span>
         </div>
       </div>
       <div class="sheet-col-1-8 sheet-center sheet-pad-r-md">
-        <input class="sheet-center" type="text" name="attr_province_region"/>
+        <input class="sheet-center" type="text" value="Nieznana" name="attr_province_region"/>
         <div class="sheet-small-label">
           <span class="sheet-english">Province / Region</span>
           <span class="sheet-german">Prowincja / Kraina</span>
         </div>
       </div>
       <div class="sheet-col-1-8 sheet-center sheet-pad-r-md">
-        <input class="sheet-center" type="text" name="attr_birthplace"/>
+        <input class="sheet-center" type="text" value="Nieznane" name="attr_birthplace"/>
         <div class="sheet-small-label">
           <span class="sheet-english">Birthplace</span>
           <span class="sheet-german">Miejsce Urodzenia</span>
@@ -2182,7 +2182,7 @@
         </div>
       </div>
       <div class="sheet-col-1-8 sheet-center sheet-pad-r-md">
-        <input class="sheet-center" type="text" name="attr_home"/>
+        <input class="sheet-center" type="text" value="Obieżyświat" name="attr_home"/>
         <div class="sheet-small-label">
           <span class="sheet-english">Home</span>
           <span class="sheet-german">Miejsce Zamieszkania</span>
@@ -2207,6 +2207,57 @@
         <div class="sheet-small-label">
           <span class="sheet-english">Nobility</span>
           <span class="sheet-german">Szlachectwo</span>
+        </div>
+      </div>
+    </div>
+    <h4 class="sheet-center">
+      <span class="sheet-english">Cechy Charakterystyczne</span>
+      <span class="sheet-german">Cechy Charakterystyczne</span>
+      <span class="sheet-pictos">E</span>
+    </h4>
+    <div class="sheet-row sheet-mar-b-md">
+      <div class="sheet-col-1-3 sheet-center sheet-vert-top sheet-pad-r-md">
+        <div class="sheet-row sheet-sub-header">
+          <div class="sheet-col-1 sheet-vert-bottom sheet-center sheet-small-label">
+            <span class="sheet-english">Znaki Szczególne</span>
+            <span class="sheet-german">Znaki Szczególne</span>
+          </div>
+        </div>
+        <textarea name="attr_specialtraits" class="sheet-small-textarea">Ta osoba nie posiada nic nadzwyczajnego w swoim wyglądzie co odróżniało ją od typowego przedstawiciela swej rasy.</textarea>
+        <div class="sheet-col-1 sheet-vert-bottom sheet-center sheet-small-label">
+        <fieldset class="repeating_specialtraits">
+            <textarea name="attr_specialtraitsrepeating" class="sheet-small-textarea"></textarea>
+        </fieldset>
+        </div>
+      </div>
+      <div class="sheet-col-1-3 sheet-center sheet-vert-top sheet-pad-r-md">
+        <div class="sheet-row sheet-sub-header">
+          <div class="sheet-col-1 sheet-vert-bottom sheet-center sheet-small-label">
+            <span class="sheet-english">Psychological Traits</span>
+            <span class="sheet-german">Cechy Psychiczne</span>
+          </div>
+        </div>
+        <textarea name="attr_psychologicaltraits" class="sheet-small-textarea">O dziwo, ta osoba nie ma żadnych specyficznych nawyków czy tików nerwowych. Dość niezwykłę jak na mieszkańca Starego Świata.</textarea>
+        <div class="sheet-col-1 sheet-vert-bottom sheet-center sheet-small-label">
+        <div class="sheet-col-1">
+        <fieldset class="repeating_specialtraits">
+            <textarea name="attr_psychologicaltraitsrepeating" class="sheet-small-textarea"></textarea>
+        </fieldset>
+        </div>
+        </div>
+      </div>
+      <div class="sheet-col-1-3 sheet-center" "sheet-vert-top sheet-pad-r-md">
+        <div class="sheet-row sheet-sub-header">
+          <div class="sheet-col-1 sheet-vert-bottom sheet-center sheet-small-label">
+            <span class="sheet-english">Diseases</span>
+            <span class="sheet-german">Choroby</span>
+          </div>
+        </div>
+        <textarea name="attr_diseases" class="sheet-small-textarea">Tą postać nie trapi żadna choroba. Czy to psychiczna czy najzwyczajniejsze w świecie przeziębienie. Zdrów jak ryba wypada tylko rzecz.</textarea>
+        <div class="sheet-col-1 sheet-vert-bottom sheet-center sheet-small-label">
+        <fieldset class="repeating_diseases">
+            <textarea name="attr_diseasesreoeating" class="sheet-small-textarea"></textarea>
+        </fieldset>
         </div>
       </div>
     </div>
