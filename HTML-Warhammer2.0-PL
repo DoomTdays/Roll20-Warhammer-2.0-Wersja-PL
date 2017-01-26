@@ -1,5 +1,5 @@
 <div class="sheet-overall-wrapper">
-  <span class="sheet-last-updated">Wersja Karty: 11 Stycznia 2017</span>
+  <span class="sheet-last-updated">Wersja Karty: 7 Październik 2016</span>
   <input class="sheet-tab-language sheet-float-right" type="radio" name="attr_lang" value="German" checked="checked"/><span class="sheet-tab-language sheet-german sheet-float-right"></span>
   <input class="sheet-tab-language sheet-float-right" type="radio" name="attr_lang" value="English"/><span class="sheet-tab-language sheet-english sheet-float-right"></span>
   
@@ -3178,15 +3178,15 @@
       <span class="sheet-pictos">D</span>
     </h4>
     <div class="sheet-row sheet-sub-header">
-      <div class="sheet-col-1-24 sheet-center sheet-small-label sheet-vert-middle sheet-pad-r-sm">Prof?</div>
+      <div class="sheet-col-1-24 sheet-center sheet-small-label sheet-vert-middle sheet-pad-r-sm">U.P</div>
       <div class="sheet-col-1-7 sheet-center sheet-small-label sheet-vert-middle sheet-pad-r-sm">Nazwa</div>
       <div class="sheet-col-095 sheet-center sheet-small-label sheet-vert-middle sheet-pad-r-sm">Kategoria</div>
       <div class="sheet-col-1-20 sheet-center sheet-small-label sheet-vert-middle sheet-pad-r-sm">WW Bonus</div>
       <div class="sheet-col-1-20 sheet-center sheet-small-label sheet-vert-middle sheet-pad-r-sm">Traf</div>
       <div class="sheet-col-1-20 sheet-center sheet-small-label sheet-vert-middle sheet-pad-r-sm">Obr</div>
-      <div class="sheet-col-1-24 sheet-center sheet-small-label sheet-vert-middle sheet-pad-r-sm">Uderz</div>
-      <div class="sheet-col-06 sheet-center sheet-small-label sheet-vert-middle sheet-pad-r-sm">Obrona</div>
-      <div class="sheet-col-1-4 sheet-center sheet-small-label sheet-vert-middle sheet-pad-r-sm">Właściwości</div>
+      <div class="sheet-col-1-24 sheet-center sheet-small-label sheet-vert-middle sheet-pad-r-sm">Druzg</div>
+      <div class="sheet-col-06 sheet-center sheet-small-label sheet-vert-middle sheet-pad-r-sm">Parująca</div>
+      <div class="sheet-col-1-4 sheet-center sheet-small-label sheet-vert-middle sheet-pad-r-sm">Cechy Broni</div>
       <div class="sheet-col-07 sheet-center sheet-small-label sheet-vert-middle sheet-pad-r-sm">Atak</div>
       <div class="sheet-col-07 sheet-center sheet-small-label sheet-vert-middle sheet-pad-r-sm">Obrażenia</div>
       <div class="sheet-col-07 sheet-center sheet-small-label sheet-vert-middle sheet-pad-r-sm">Parowanie</div>
@@ -3433,13 +3433,13 @@
       <span class="sheet-pictos">e</span>
     </h4>
     <div class="sheet-row sheet-sub-header">
-      <div class="sheet-col-1-24 sheet-center sheet-small-label sheet-vert-middle sheet-pad-r-sm">Prof?</div>
+      <div class="sheet-col-1-24 sheet-center sheet-small-label sheet-vert-middle sheet-pad-r-sm">U.P</div>
       <div class="sheet-col-1-7 sheet-center sheet-small-label sheet-vert-middle sheet-pad-r-sm">Nazwa</div>
       <div class="sheet-col-095 sheet-center sheet-small-label sheet-vert-middle sheet-pad-r-sm">Kategoria</div>
       <div class="sheet-col-1-20 sheet-center sheet-small-label sheet-vert-middle sheet-pad-r-sm">US Bonus</div>
       <div class="sheet-col-1-20 sheet-center sheet-small-label sheet-vert-middle sheet-pad-r-sm">Traf</div>
       <div class="sheet-col-1-20 sheet-center sheet-small-label sheet-vert-middle sheet-pad-r-sm">Obr</div>
-      <div class="sheet-col-1-24 sheet-center sheet-small-label sheet-vert-middle sheet-pad-r-sm">Uderz</div>
+      <div class="sheet-col-1-24 sheet-center sheet-small-label sheet-vert-middle sheet-pad-r-sm">Druzg</div>
       <div class="sheet-col-18 sheet-center sheet-small-label sheet-vert-middle sheet-pad-r-sm">Cechy Broni</div>
       <div class="sheet-col-1-20 sheet-center sheet-small-label sheet-vert-middle sheet-pad-r-sm">Typ</div>
       <div class="sheet-col-1-20 sheet-center sheet-small-label sheet-vert-middle sheet-pad-r-sm">Przeł</div>
@@ -3867,7 +3867,7 @@
             <div class="sheet-spell-button-group sheet-right">
               <div class="sheet-row">
                 <div class="sheet-col sheet-center sheet-vert-middle">
-                  <button type="roll" class="sheet-roll" name="roll_SpellCast" value="&{template:whfrp2e} {{title=@{spellname}}} {{character_name=@{character_name}}} {{spelltype=Magia Prosta}} {{spellcasttime=@{spellcasttime}}} {{spellrange=@{spellrange}}} {{spellingredients=@{spellingredients}}} {{spellduration=@{spellduration}}} {{spelltarget=@{spelltarget}}} {{spellcastingnumber=[[@{spellcastingnumber}]]}} {{spelltest=[[?{Punkty Magii|0}d10+?{Składnik|0}+?{Splatanie Magii|0}]]}} {{spelldescription=@{spelldescription}}} {{spelleffect=@{spelleffect}}}">
+                  <button type="roll" class="sheet-roll" name="roll_SpellCast" value="&{template:whfrp2e} {{title=@{spellname}}} {{character_name=@{character_name}}} {{spelltype=Magia Prosta}} {{spellcasttime=@{spellcasttime}}} {{spellrange=@{spellrange}}} {{spellingredients=@{spellingredients}}} {{spellduration=@{spellduration}}} {{spelltarget=@{spelltarget}}} {{spellcastingnumber=[[@{spellcastingnumber}]]}} {{spelltest=[[?{Punkty Magii|0}d10+?{Składnik|0}+?{Splatanie Magii|0}]]}} {{spelldescription=@{spelldescription}}} {{spelleffect=@{spelleffect}} }">
                     <span>Rzuć</span>
                   </button>
                   <button type="roll" class="sheet-roll" name="roll_SpellDamage" value="&{template:whfrp2e} {{title=@{spellname}}} {{character_name=@{character_name}}} {{attacktype=Obrażenia}} {{hitlocation=[[1d100]]}} {{damage=[[@{spelldamge}]]}} {{furydamage=[[1d10]]}} {{target=[[100]]}} {{attacktest=[[1d100]]}}">
@@ -5332,7 +5332,7 @@
         <div class="sheet-rt-subheader">{{attacktype}}</div>
       {{/parrytest}}
       {{#spelltest}}
-        <div class="sheet-rt-subheader">{{spelltype}} Spell &bullet; {{spellcasttime}}{{#spellrange}} &bullet; {{spellrange}}{{/spellrange}}</div>
+        <div class="sheet-rt-subheader">Typ Zaklęcia - {{spelltype}} &bullet; {{spellcasttime}}{{#spellrange}} &bullet; {{spellrange}}{{/spellrange}}</div>
         <div class="sheet-rt-subheader">{{#spellingredients}}{{spellingredients}}{{/spellingredients}}</div>
         <div class="sheet-rt-subheader">{{#spellduration}}{{spellduration}}{{/spellduration}}{{#spelltarget}} &bullet; {{spelltarget}}{{/spelltarget}}</div>
       {{/spelltest}}
@@ -10439,7 +10439,7 @@
       {{/damage}}
       {{#rollGreater() impact 0}}
         <div class="sheet-row">
-          <div class="sheet-col-11-24 sheet-pad-l-md sheet-pad-r-md sheet-rt-key">Wpływ</div>
+          <div class="sheet-col-11-24 sheet-pad-l-md sheet-pad-r-md sheet-rt-key">Obrażenia (Druzgoczące)</div>
           <div class="sheet-col-13-24 sheet-pad-r-sm sheet-rt-value">{{impactdamage}}{{#rollWasCrit() impactdamage}} + {{furydamage}} Furia Ulryka!{{/rollWasCrit() impactdamage}}</div>
         </div>
       {{/rollGreater() impact 0}}
@@ -10461,6 +10461,10 @@
         <div class="sheet-row">
           <div class="sheet-col-11-24 sheet-pad-l-md sheet-pad-r-md sheet-rt-key">Wynik</div>
           <div class="sheet-col-13-24 sheet-pad-r-sm sheet-smaller-letter-spacing sheet-rt-value">Nie dostroiłeś się do Wichrów Magii. Splatanie zaklęcia nie powidołod się</div>
+        </div>
+        <div class="sheet-row">
+          <div class="sheet-col-11-24 sheet-pad-l-md sheet-pad-r-md sheet-rt-key">Manifestacja</div>
+          <div class="sheet-col-13-24 sheet-pad-r-sm sheet-smaller-letter-spacing sheet-rt-value">Sigmar ma cię w swojej opatrzności. Tzeentch Pan Przemina nie objawił się w postaci manifestacji</div>
         </div>
       {{/rollLess() spelltest spellcastingnumber}}
       {{#rollTotal() spelltest spellcastingnumber}}
@@ -10524,13 +10528,13 @@
       {{#rollGreater() spelltest spellcastingnumber}}
         {{#spelldescription}}
           <div class="sheet-row">
-            <div class="sheet-col-1 sheet-pad-l-md sheet-pad-r-md sheet-rt-key">Spell Description</div>
+            <div class="sheet-col-1 sheet-pad-l-md sheet-pad-r-md sheet-rt-key">Opis Zaklęcia</div>
             <div class="sheet-col-1 sheet-pad-l-md sheet-pad-r-md sheet-rt-value">{{spelldescription}}</div>
           </div>
         {{/spelldescription}}
         {{#spelleffect}}
           <div class="sheet-row">
-            <div class="sheet-col-1 sheet-pad-l-md sheet-pad-r-md sheet-rt-key">Spell Effect</div>
+            <div class="sheet-col-1 sheet-pad-l-md sheet-pad-r-md sheet-rt-key">Efekt Zaklęcia</div>
             <div class="sheet-col-1 sheet-pad-l-md sheet-pad-r-md sheet-rt-value">{{spelleffect}}</div>
           </div>
         {{/spelleffect}}
