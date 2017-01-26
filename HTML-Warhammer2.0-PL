@@ -2237,7 +2237,7 @@
             <span class="sheet-german">Cechy Psychiczne</span>
           </div>
         </div>
-        <textarea name="attr_psychologicaltraits" class="sheet-small-textarea">O dziwo, ta osoba nie ma żadnych specyficznych nawyków czy tików nerwowych. Dość niezwykłę jak na mieszkańca Starego Świata.</textarea>
+        <textarea name="attr_psychologicaltraits" class="sheet-small-textarea">O dziwo, ta osoba nie ma żadnych specyficznych nawyków czy tików nerwowych. Dość niezwykłe jak na mieszkańca Starego Świata.</textarea>
         <div class="sheet-col-1 sheet-vert-bottom sheet-center sheet-small-label">
         <div class="sheet-col-1">
         <fieldset class="repeating_specialtraits">
