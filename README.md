@@ -1,4 +1,4 @@
-<font size="18"><b>Warhammer Druga Edycja
+<font size="5"><b>Warhammer Druga Edycja
 Tłumaczenie Kart Postaci na Platformę Roll20</b></font>
 
 Są to przetłumaczone karty postaci przeznaczone do użytku na platformie Roll20. Tłumaczenie jest kompletnie darmowe i można je swobodnie rozpowszechniać. Proszę tylko o wzmiankę o autorstwie tłumaczenia oraz niepobierania jakichkolwiek opłat za rozpowszechnianie tłumaczenie. Możecie swobodnie modyfikować kod źródłowy, jeżeli umiecie posługiwać się językiem tajemnym HTML oraz CSS. Jeżeli masz jakieś pytanie na temat kart postaci albo propozycję proszę o kontakt ze mną po przez e-maila. Może uda mi się Ci pomóc. E-mail znajduje się na końcu dokumentu.
