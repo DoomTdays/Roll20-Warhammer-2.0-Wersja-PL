@@ -41,84 +41,84 @@ Pamiętaj, że makra będą działać tylko jeżeli poprawnie zainstalujesz Kart
 Możecie stworzyć swoją własną kostkę zmieniając tylko dwa parametry Title - wpisując wartość kostki oraz DiceRollTest - określając jakiego rzutu ma dokonać system, np. 2d20. Pamiętajcie aby przypadkiem nie usunąć żadnego z nawiasów, bo makro przestanie działać.
 Dla waszej wygody zamieszczam jednak listę wszystkich najprzydatniejszych makr. Wystarczy je tylko przekopiować zgodnie z powyższą instrukcją.
 
-Rzut Kostką 100 – 1k100.
+<b>Rzut Kostką 100 – 1k100.</b>
 
 &{template:whfrp2e} {{title=100}} {{character_name=Nazwa Mojej Postaci}} {{DiceRollTest=[[1d100]]}}
 
-Rzut Kostką 20 – 1k20.
+<b>Rzut Kostką 20 – 1k20.</b>
 
 &{template:whfrp2e} {{title=20}} {{character_name=Nazwa Mojej Postaci}} {{DiceRollTest=[[1d20]]}}
 
-Rzut Kostką 12 – 1k12.
+<b>Rzut Kostką 12 – 1k12.</b>
 
 &{template:whfrp2e} {{title=12}} {{character_name=Nazwa Mojej Postaci}} {{DiceRollTest=[[1d12]]}} 
 
-Rzut Kostką 10 – 1k10.
+<b>Rzut Kostką 10 – 1k10.</b>
 
 &{template:whfrp2e} {{title=10}} {{character_name=Nazwa Mojej Postaci}} {{DiceRollTest=[[1d10]]}}
 
-Rzut Kostką 8 – 1k8.
+<b>Rzut Kostką 8 – 1k8.</b>
 
 &{template:whfrp2e} {{title=8}} {{character_name=Nazwa Mojej Postaci}} {{DiceRollTest=[[1d8]]}}
 
-Rzut Kostką 6 – 1k6.
+<b>Rzut Kostką 6 – 1k6.</b>
 
 &{template:whfrp2e} {{title=6}} {{character_name=Nazwa Mojej Postaci}} {{DiceRollTest=[[1d6]]}}
 
-Rzut Kostką 4 – 1k4.
+<b>Rzut Kostką 4 – 1k4.</b>
 
 &{template:whfrp2e} {{title=4}} {{character_name=Nazwa Mojej Postaci}} {{DiceRollTest=[[1d6]]}}
 
-Rzut Kostką 20 dwa razy – 2k20.
+<b>Rzut Kostką 20 dwa razy – 2k20.</b>
 
 &{template:whfrp2e} {{title=2k20}} {{character_name=Nazwa Mojej Postaci}} {{DiceRollTest=[[2d20]]}}
 
-Rzut Kostką 15 dwa razy – 2k15. 
+<b>Rzut Kostką 15 dwa razy – 2k15.</b>
 
 &{template:whfrp2e} {{title=2k15}} {{character_name=Nazwa Mojej Postaci}} {{DiceRollTest=[[2d15]]}}
 
-Rzut Kostką 12 dwa razy – 2k12.
+<b>Rzut Kostką 12 dwa razy – 2k12.</b>
 
 &{template:whfrp2e} {{title=2k12}} {{character_name=Nazwa Mojej Postaci}} {{DiceRollTest=[[2d12]]}}
 
-Rzut Kostką 10 dwa razy – 2k10.
+<b>Rzut Kostką 10 dwa razy – 2k10.</b>
 
 &{template:whfrp2e} {{title=2k10}} {{character_name=Nazwa Mojej Postaci}} {{DiceRollTest=[[2d10]]}}
 
-Rzut Kostką 8 dwa razy – 2k8. 
+<b>Rzut Kostką 8 dwa razy – 2k8.</b>
 
 &{template:whfrp2e} {{title=2k8}} {{character_name=Nazwa Mojej Postaci}} {{DiceRollTest=[[2d8]]}}
 
-Rzut Kostką 6 dwa razy – 2k6.
+<b>Rzut Kostką 6 dwa razy – 2k6.</b>
 
 &{template:whfrp2e} {{title=2k6}} {{character_name=Nazwa Mojej Postaci}} {{DiceRollTest=[[2d6]]}}
 
-Rzut Kostką 4 dwa razy – 2k4.
+<b>Rzut Kostką 4 dwa razy – 2k4.</b>
 
 &{template:whfrp2e} {{title=2k4}} {{character_name=Nazwa Mojej Postaci}} {{DiceRollTest=[[2d4]]}}
 
-Pomniejsza Manifestacja Chaosu - Makro przydatne dla postaci czarujących
+<b>Pomniejsza Manifestacja Chaosu - Makro przydatne dla postaci czarujących</b>
 
 &{template:whfrp2e} {{title=Pomniejsza }} {{character_name=Nazwa Mojej Postaci}} {{ChaosManifestation=Manifestacja Chaosu}} {{MinorChaosManifestation=[[1d100]]}}"
 
-Poważna Manifestacja Chaos - Makro przydatne dla postaci czarujących
+<b>Poważna Manifestacja Chaos - Makro przydatne dla postaci czarujących</b>
 
 &{template:whfrp2e} {{title=Poważna}} {{character_name=Tzeentch - Pan Przemiany}} {{ChaosManifestation=Manifestacja Chaosu}} {{MajorChaosManifestation=[[1d100]]}}"
 
-Katastrofalna Manifestacja Chaosu - Makro przydatne dla postaci czarujących
+<b>Katastrofalna Manifestacja Chaosu - Makro przydatne dla postaci czarujących</b>
 
 &{template:whfrp2e} {{title=Katastrofalna}} {{character_name=Tzeentch - Pan Przemiany}} {{ChaosManifestation=Manifestacja Chaosu}} {{DisastrousChaosManifestation=[[1d100]]}}"
 
-Lista Zmian oraz Plany
+<b>Lista Zmian oraz Plany</b>
 
-Wersja - 1.0 - 11.01.2017
+<b>Wersja - 1.0 - 11.01.2017</b>
 
 1.	Kart postaci w całości przetłumaczone.
 2.	Dodano przycisk do rzutów na obrażenia przy zaklęciach. 
 3.	Dodano rubrykę Pochodzenie i Rodzina w zakładce Historia.
 4.	Dodano makra do rzutów kościami oraz Manifestacji Chaosu.
 
-Wersja - 1.1 - 11.01.2017 - Plany
+<b>Wersja - 1.1 - 11.01.2017 - Plany</b>
 
 1.	Dodać następujące makra:
 
