@@ -1,5 +1,5 @@
-Warhammer Druga Edycja
-Tłumaczenie Kart Postaci na Platformę Roll20
+<b>Warhammer Druga Edycja
+Tłumaczenie Kart Postaci na Platformę Roll20</b>
 
 Są to przetłumaczone karty postaci przeznaczone do użytku na platformie Roll20. Tłumaczenie jest kompletnie darmowe i można je swobodnie rozpowszechniać. Proszę tylko o wzmiankę o autorstwie tłumaczenia oraz niepobierania jakichkolwiek opłat za rozpowszechnianie tłumaczenie. Możecie swobodnie modyfikować kod źródłowy, jeżeli umiecie posługiwać się językiem tajemnym HTML oraz CSS. Jeżeli masz jakieś pytanie na temat kart postaci albo propozycję proszę o kontakt ze mną po przez e-maila. Może uda mi się Ci pomóc. E-mail znajduje się na końcu dokumentu.
 
@@ -8,7 +8,7 @@ Tłumaczenie Kart Postaci: https://github.com/DoomTdays/Roll20-Warhammer-2.0-Wer
 
 Uwaga! Aby moc używać przetłumaczonych kart postaci należy koniecznie posiadać konto Pro lub Premium na platformie Roll20. Konto takie musi posiadać osoba, która założyła sesje reszta graczy może posiadać konto darmowe. 
 
-Instalacja Kart Postaci
+<b>Instalacja Kart Postaci</b>
 
 Instalacja kart postaci jest niezwykle prosta i szybka. Nie powinna zająć ci więcej niż 3-5 minuty. Poniżej wstawiam krótką instrukcję, która z pewnością ułatwi wam sprawę.
 
@@ -20,7 +20,7 @@ b)	Jeżeli chcemy dodać karty postaci do istniejącej już sesji należy. Wejś
 4.	Następnie przechodzimy do sekcji CSS. Kopiujemy tam zwartość CSS-Warhammer2.0-PL z podanego linku, gdzie znajduje się tłumaczenie.
 5.	I gotowe możemy już bez problemu korzystać z naszych kart postaci. Nawet po utracie statusu Premium lub Pro karty pozostaną na naszej sesji. Zachęcam jednak do dalszego opłacania konta, gdyż wspierasz tym samy twórców platformy i pozwalasz im ją rozwijać.
 
-Instalacja Makr – Opcjonalne
+<b>Instalacja Makr – Opcjonalne</b>
 
 Pamiętaj, że makra będą działać tylko jeżeli poprawnie zainstalujesz Karty Postaci. Cały kod źródłowy znajduje się właśnie tam i bez tego makra nie będą funkcjonować.
 
@@ -36,69 +36,110 @@ Pamiętaj, że makra będą działać tylko jeżeli poprawnie zainstalujesz Kart
 10.	Na zakładce Macros pojawi się nasze nowe makro. Należy zaznaczyć opcję In Bar  ( Każdorazowo przy dodawaniu makr ) oraz zaznaczyć hitbox’a Show macro quick bar?  ( Wystarczy raz, Roll20 zapamięta nasze ustawienia ).
 11.	I to wszystko. Od tego momentu wygodnie możecie dokonywać rzutów przy pomocy jednego przycisku.
 
-Lista dostępnych makr:
+<b>Lista dostępnych makr:</b>
 
 Możecie stworzyć swoją własną kostkę zmieniając tylko dwa parametry Title - wpisując wartość kostki oraz DiceRollTest - określając jakiego rzutu ma dokonać system, np. 2d20. Pamiętajcie aby przypadkiem nie usunąć żadnego z nawiasów, bo makro przestanie działać.
 Dla waszej wygody zamieszczam jednak listę wszystkich najprzydatniejszych makr. Wystarczy je tylko przekopiować zgodnie z powyższą instrukcją.
 
 Rzut Kostką 100 – 1k100.
+
 &{template:whfrp2e} {{title=100}} {{character_name=Nazwa Mojej Postaci}} {{DiceRollTest=[[1d100]]}}
+
 Rzut Kostką 20 – 1k20.
+
 &{template:whfrp2e} {{title=20}} {{character_name=Nazwa Mojej Postaci}} {{DiceRollTest=[[1d20]]}}
+
 Rzut Kostką 12 – 1k12.
+
 &{template:whfrp2e} {{title=12}} {{character_name=Nazwa Mojej Postaci}} {{DiceRollTest=[[1d12]]}} 
+
 Rzut Kostką 10 – 1k10.
+
 &{template:whfrp2e} {{title=10}} {{character_name=Nazwa Mojej Postaci}} {{DiceRollTest=[[1d10]]}}
+
 Rzut Kostką 8 – 1k8.
+
 &{template:whfrp2e} {{title=8}} {{character_name=Nazwa Mojej Postaci}} {{DiceRollTest=[[1d8]]}}
+
 Rzut Kostką 6 – 1k6.
+
 &{template:whfrp2e} {{title=6}} {{character_name=Nazwa Mojej Postaci}} {{DiceRollTest=[[1d6]]}}
+
 Rzut Kostką 4 – 1k4.
+
 &{template:whfrp2e} {{title=4}} {{character_name=Nazwa Mojej Postaci}} {{DiceRollTest=[[1d6]]}}
 
-
 Rzut Kostką 20 dwa razy – 2k20.
+
 &{template:whfrp2e} {{title=2k20}} {{character_name=Nazwa Mojej Postaci}} {{DiceRollTest=[[2d20]]}}
+
 Rzut Kostką 15 dwa razy – 2k15. 
+
 &{template:whfrp2e} {{title=2k15}} {{character_name=Nazwa Mojej Postaci}} {{DiceRollTest=[[2d15]]}}
+
 Rzut Kostką 12 dwa razy – 2k12.
+
 &{template:whfrp2e} {{title=2k12}} {{character_name=Nazwa Mojej Postaci}} {{DiceRollTest=[[2d12]]}}
+
 Rzut Kostką 10 dwa razy – 2k10.
+
 &{template:whfrp2e} {{title=2k10}} {{character_name=Nazwa Mojej Postaci}} {{DiceRollTest=[[2d10]]}}
+
 Rzut Kostką 8 dwa razy – 2k8. 
+
 &{template:whfrp2e} {{title=2k8}} {{character_name=Nazwa Mojej Postaci}} {{DiceRollTest=[[2d8]]}}
+
 Rzut Kostką 6 dwa razy – 2k6.
+
 &{template:whfrp2e} {{title=2k6}} {{character_name=Nazwa Mojej Postaci}} {{DiceRollTest=[[2d6]]}}
+
 Rzut Kostką 4 dwa razy – 2k4.
+
 &{template:whfrp2e} {{title=2k4}} {{character_name=Nazwa Mojej Postaci}} {{DiceRollTest=[[2d4]]}}
+
 Pomniejsza Manifestacja Chaosu - Makro przydatne dla postaci czarujących
+
 &{template:whfrp2e} {{title=Pomniejsza }} {{character_name=Nazwa Mojej Postaci}} {{ChaosManifestation=Manifestacja Chaosu}} {{MinorChaosManifestation=[[1d100]]}}"
+
 Poważna Manifestacja Chaos - Makro przydatne dla postaci czarujących
+
 &{template:whfrp2e} {{title=Poważna}} {{character_name=Tzeentch - Pan Przemiany}} {{ChaosManifestation=Manifestacja Chaosu}} {{MajorChaosManifestation=[[1d100]]}}"
+
 Katastrofalna Manifestacja Chaosu - Makro przydatne dla postaci czarujących
+
 &{template:whfrp2e} {{title=Katastrofalna}} {{character_name=Tzeentch - Pan Przemiany}} {{ChaosManifestation=Manifestacja Chaosu}} {{DisastrousChaosManifestation=[[1d100]]}}"
-Lista Zmian oraz Plany 
+
+Lista Zmian oraz Plany
+
 Wersja - 1.0 - 11.01.2017
+
 1.	Kart postaci w całości przetłumaczone.
 2.	Dodano przycisk do rzutów na obrażenia przy zaklęciach. 
 3.	Dodano rubrykę Pochodzenie i Rodzina w zakładce Historia.
 4.	Dodano makra do rzutów kościami oraz Manifestacji Chaosu.
+
 Wersja - 1.1 - 11.01.2017 - Plany
+
 1.	Dodać następujące makra:
+
 	Trafienia Krytyczne
 	Śmierdzący Ochlapus
 	Choroby Umysłowe
 	Leczenie Obłędu
 	Efekty nieudanej operacji
 	Medykamenty
+
 2.	Poprawić parę błędów w tłumaczeniu.
-Kontakt oraz Post Scriptum
+3. Rozdział na wersję podstawową oraz wersję roszerzoną.
+
+<b>Kontakt oraz Post Scriptum</b>
+
 Autor Tłumaczenia Kart Postaci: Doom_days
 Kontakt: Devil.doom.days@gmail.com
 
 Jeżeli wyłapiesz jakiś błąd w kartach bądź wpadniesz na ciekawy pomysł, który chciałbyś zaimplementować nie omieszkaj dać mi znać o tym po przez e-maila. 
 
-Podziękowania
+<b>Podziękowania</b>
 
 Baniakowi, za udostępnienie publicznie kart postaci. Link do kanału na YouTube: http://www.youtube.com/baniakbaniaka
 
